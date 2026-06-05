@@ -2,7 +2,7 @@
   "version": "0.3.0",
   "min_version": "0.2.0",
   "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.0/CallKavach-bundle-0.3.0.zip",
-  "sha256": "14dd337130cb643895b14b5efb1b9360ec0df04541655b883fcf8e7a9c5cb101",
+  "sha256": "727d87760406e6338c85ff86ca2337ff5777ff8dca66cf8fc16857fe470e260a",
   "release_notes": "New: coaching matrix, agent roster, month filter, prev/next navigation, fuzzy name matching, pywebview desktop window, auto-updater",
   "critical": false,
   "published_at": "2026-06-04"
