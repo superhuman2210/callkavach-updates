@@ -5,5 +5,5 @@
   "sha256": "f1670cded401041a65fbe2dceba1bb1c9f32beba242ae7e928444f9ded3bac11",
   "release_notes": "New: coaching matrix, agent roster, month filter, prev/next navigation, fuzzy name matching, pywebview desktop window, auto-updater",
   "critical": false,
-  "published_at": "2026-06-04"
+  "published_at": "2026-06-06"
 }
