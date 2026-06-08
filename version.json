@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "min_version": "0.2.0",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.0/CallKavach-bundle-0.3.0.zip",
-  "sha256": "f1670cded401041a65fbe2dceba1bb1c9f32beba242ae7e928444f9ded3bac11",
-  "release_notes": "New: coaching matrix, agent roster, month filter, prev/next navigation, fuzzy name matching, pywebview desktop window, auto-updater",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.1/CallKavach-bundle-0.3.1.zip",
+  "sha256": "8e3c7d16bd5a8d5a87ed87951184156f848dc72d20514d315a3ea5f4dc535920",
+  "release_notes": "Fix: compliance engine violations display, splash screen, sidebar icon, waveform centering",
   "critical": false,
-  "published_at": "2026-06-06"
+  "published_at": "2026-06-08"
 }
