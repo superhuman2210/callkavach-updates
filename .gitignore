@@ -1,0 +1,6 @@
+CallKavach-bundle-*.zip
+dist/
+config/
+*.exe
+build_*.txt
+prerequisites/
