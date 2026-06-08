@@ -1,9 +1,9 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "min_version": "0.2.0",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.1/CallKavach-bundle-0.3.1.zip",
-  "sha256": "8e3c7d16bd5a8d5a87ed87951184156f848dc72d20514d315a3ea5f4dc535920",
-  "release_notes": "Fix: compliance engine violations display, splash screen, sidebar icon, waveform centering",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.2/CallKavach-bundle-0.3.2.zip",
+  "sha256": "75d88d084a737a540cd4500ca45d3bf60d171bfe9a695835f71543b22573d5bc",
+  "release_notes": "Enterprise Auto-Updater: surgical safe updates, disk pre-flight checks, and robust fail-safes",
   "critical": false,
   "published_at": "2026-06-08"
 }
