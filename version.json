@@ -1,7 +1,7 @@
 {
-  "version": "0.3.2",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.2/CallKavach-bundle-0.3.2.zip",
-  "sha256": "05db645870e7c919cb605af24709defa4e7ad1107e50d6a376c55bcc39956dc1",
-  "release_notes": "Calling Hours violations now display correctly. Splash screen shows reliably on all hardware. Version display unified across all pages.",
-  "critical": false
+  "version": "0.3.3",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.3/CallKavach-bundle-0.3.3.zip",
+  "sha256": "aedff62b7d6a66ca87dba6156fd084c1c8f7da5463449c4778a038ad020a4bad",
+  "release_notes": "Security update: Supabase credentials removed from agency machines. Cloud sync now routes through Railway API only.",
+  "critical": true
 }
