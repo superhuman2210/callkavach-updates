@@ -1,7 +1,7 @@
 {
-  "version": "0.3.4",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.4/CallKavach-bundle-0.3.4.zip",
-  "sha256": "57436565133d4ab999cc509dfd3a00332afffc9b4cd74219854adde8c248cd10",
-  "release_notes": "Real shield icon in splash and login. Cinematic launch animation.",
+  "version": "0.3.5",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.5/CallKavach-bundle-0.3.5.zip",
+  "sha256": "086835f05399ec93262e2bd474a2282444a178332abca461ca0f6f7e3544b5fa",
+  "release_notes": "Security boot splash, audit history violation chips fixed, action button removed.",
   "critical": false
 }
