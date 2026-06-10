@@ -1,7 +1,7 @@
 {
-  "version": "0.3.5",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.5/CallKavach-bundle-0.3.5.zip",
-  "sha256": "086835f05399ec93262e2bd474a2282444a178332abca461ca0f6f7e3544b5fa",
-  "release_notes": "Security boot splash, audit history violation chips fixed, action button removed.",
+  "version": "0.3.6",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.6/CallKavach-bundle-0.3.6.zip",
+  "sha256": "bf27cefcf3dd190f2bab81dabeed6444a402121c8e04711fb80348bab2dd6b2b",
+  "release_notes": "Auto-updater fixed: update now applies correctly on all Windows machines.",
   "critical": false
 }
