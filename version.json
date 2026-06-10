@@ -1,7 +1,7 @@
 {
-  "version": "0.3.6",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.6/CallKavach-bundle-0.3.6.zip",
-  "sha256": "bf27cefcf3dd190f2bab81dabeed6444a402121c8e04711fb80348bab2dd6b2b",
-  "release_notes": "Auto-updater fixed: update now applies correctly on all Windows machines.",
+  "version": "0.3.7",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.7/CallKavach-bundle-0.3.7.zip",
+  "sha256": "e6231e2a40cb9d3242c1606cbedc478e02e2c5f1b5ce032d6d75f35bfbe4e552",
+  "release_notes": "Splash screen fixed, favicon fixed, audio stop-others, icon case fixes.",
   "critical": false
 }
