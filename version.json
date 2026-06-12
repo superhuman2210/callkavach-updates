@@ -1,7 +1,7 @@
 {
-  "version": "0.3.8",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.8/CallKavach-bundle-0.3.8.zip",
-  "sha256": "f4ee74651b689966221be7005a39f53d71bb568046ed58461c0795bb92c3ee02",
-  "release_notes": "Auto-update fixed: worker killed by PID before swap. No more 60s timeout.",
+  "version": "0.3.9",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.9/CallKavach-bundle-0.3.9.zip",
+  "sha256": "327b798315cd3436bd0b378d0ef51b878d23c1d45acc00fd1d6c2c1de10cb7c0",
+  "release_notes": "Critical: license unification (required to process on affected installs), full-file SHA-256 idempotency fix, RBI >7/day frequency sweep on both completion paths, call-duration tracking, non-connected summary consistency, admin reprocess-calls endpoint.",
   "critical": true
 }
