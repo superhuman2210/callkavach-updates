@@ -1,7 +1,7 @@
 {
-  "version": "0.3.9",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.3.9/CallKavach-bundle-0.3.9.zip",
-  "sha256": "327b798315cd3436bd0b378d0ef51b878d23c1d45acc00fd1d6c2c1de10cb7c0",
-  "release_notes": "Critical: license unification (required to process on affected installs), full-file SHA-256 idempotency fix, RBI >7/day frequency sweep on both completion paths, call-duration tracking, non-connected summary consistency, admin reprocess-calls endpoint.",
+  "version": "0.4.0",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.0/CallKavach-bundle-0.4.0.zip",
+  "sha256": "f25e29fbb42008befdadae1f702521e52267683c5c0fbbab3329723b3577c6eb",
+  "release_notes": "v0.4.0: two-stream cloud sync (cost/margin moved server-side, never on-prem), hr-v1 PII masking for cloud transcripts, 4 coaching dimensions (representation, conduct, explanation, persuasion), agent-name attribution hardening, call-duration from Railway. Existing installs auto-ALTER the new columns on startup.",
   "critical": true
 }
