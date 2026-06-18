@@ -1,7 +1,7 @@
 {
-  "version": "0.4.1",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.1/CallKavach-bundle-0.4.1.zip",
-  "sha256": "8f6de04332c957cff340c704b3076acfd6481e050711c16931a03d85cf632a1a",
-  "release_notes": "v0.4.1: reliability — processing now handles a slow or busy transcription service gracefully: longer timeouts and a clear 'taking longer than usual, please retry in a few minutes' message instead of a failed call. Also restores automatic call-duration detection. Updates in place; no data-model changes.",
+  "version": "0.4.2",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.2/CallKavach-bundle-0.4.2.zip",
+  "sha256": "446a636a00daabd99f98aa71e0c5a19ea2e4dcc3c03142230fb97169f1e0557a",
+  "release_notes": "v0.4.2: more accurate risk scoring (fixes calls that were wrongly shown as high-risk), correct handling of non-connected calls, and a cleaner call-detail view — now showing connection status, AI summary, call duration, coaching insights, and a speaker-by-speaker transcript. Updates in place; no data-model changes.",
   "critical": true
 }
