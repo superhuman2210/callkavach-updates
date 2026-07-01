@@ -1,7 +1,7 @@
 {
-  "version": "0.4.3",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.3/CallKavach-bundle-0.4.3.zip",
-  "sha256": "a0ced0d18bcedf6bf31b1fb0e85fade8a46fa9a0d2877e343474f51414f4a250",
-  "release_notes": "v0.4.3: security hardening — removed legacy flagged-file copy/move flows, LAN sharing defaults off, hardened update bridge, fixed stored-XSS sinks, preserved safe Highlight Flagged Calls.",
+  "version": "0.4.4",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.4/CallKavach-bundle-0.4.4.zip",
+  "sha256": "957beae6cd687696128deac1f041556150ae3d4339b7b2445c354c8af7e31658",
+  "release_notes": "v0.4.4: reliability hotfix for Sarvam timeout, service_busy, retryable batch state, no stuck polling, and Retry processing.",
   "critical": true
 }
