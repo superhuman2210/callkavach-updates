@@ -1,7 +1,7 @@
 {
-  "version": "0.4.4",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.4/CallKavach-bundle-0.4.4.zip",
-  "sha256": "957beae6cd687696128deac1f041556150ae3d4339b7b2445c354c8af7e31658",
-  "release_notes": "v0.4.4: reliability hotfix for Sarvam timeout, service_busy, retryable batch state, no stuck polling, and Retry processing.",
+  "version": "0.4.5",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.5/CallKavach-bundle-0.4.5.zip",
+  "sha256": "f7bf9a4f79b4a70fb703df0dc6f65a8b996ad18e6c5724047b436a812181a947",
+  "release_notes": "v0.4.5: Professional on-premise updater foundation with UAC-aware update handoff, stable update logs, protected runtime data paths outside _internal, legacy DB migration, and v0.4.4 processing reliability fixes.",
   "critical": true
 }
