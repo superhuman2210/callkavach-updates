@@ -1,7 +1,7 @@
 {
-  "version": "0.4.6",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.6/CallKavach-bundle-0.4.6.zip",
-  "sha256": "ec7add8d2511fab439500404a4b38d1830bd8df1c6747839554a5f3ba94aa932",
-  "release_notes": "v0.4.6: Processing stability, security, and 50-call readiness. Single-instance guard, hidden ffmpeg/ffprobe windows, conservative API concurrency with automatic service_busy retry/backoff and Retry-After support, improved batch retry handling, PII-safe filename logging, deterministic AI-summary PII redaction on API, local NOT_CONNECTED/NC consistency, admin support-status endpoint, PyJWT migration, and updated upload parser dependency. Stabilizes the current architecture; the premium 300+ call engine remains planned for v0.5.0.",
+  "version": "0.4.6.1",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.6.1/CallKavach-bundle-0.4.6.1.zip",
+  "sha256": "102040ac458d8f811d5a3640a9656c834c1b01d2831882292138dc7ee4d98e80",
+  "release_notes": "v0.4.6.1: Packaged worker startup hotfix. Fixes the Celery worker dying after auto-update when the inherited APP environment variable poisons Celery's CLI (batches stuck at Pending forever). Scrubs unsafe Celery CLI environment variables before worker startup, renames the updater BAT variable APP to CK_APPDIR, adds worker health diagnostics to /api/support/status, and shows a worker-not-running warning instead of a silently pending batch. Includes all v0.4.6 stability/security/50-call readiness improvements.",
   "critical": true
 }
