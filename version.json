@@ -1,7 +1,7 @@
 {
-  "version": "0.4.7",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.4.7/CallKavach-bundle-0.4.7.zip",
-  "sha256": "1895ab80355c1ca11501e7c205f1ddac86a8770e298d0e2e897ecbcb12620e34",
-  "release_notes": "v0.4.7: Supportability, Health Page & Performance Diagnostics. Adds the admin System Health page at /support, a PII-safe support bundle download, a timing ledger for batch performance analysis, the /api/support/timings endpoint, an upgraded /api/support/status, better worker/DB/disk/audio-tool diagnostics, and a fix for the support-status batch_id lookup bug. Improves 50/100/300-call test readiness. Includes all v0.4.6.1 worker startup hotfix improvements. The premium 300+ call engine remains planned for v0.5.0.",
+  "version": "0.5.0-rc8",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc8/CallKavach-bundle-0.5.0-rc8.zip",
+  "sha256": "017747fd7f9a15eab520dae438add6185c141f772980f1e90d7a093d10e55929",
+  "release_notes": "v0.5.0-rc8: RC8 jobs-mode installer compatibility. The rebuilt CallKavach-Setup.exe now creates config\\engine.json during setup, enabling PostgreSQL jobs-mode startup on fresh installs. The app is BOM-tolerant when reading engine.json. Also: packaged exports fixed, dynamic issue filters, and the Celery worker is skipped in jobs mode to prevent broker log flood. Prerelease build for RC validation.",
   "critical": true
 }
