@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-rc8",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc8/CallKavach-bundle-0.5.0-rc8.zip",
-  "sha256": "017747fd7f9a15eab520dae438add6185c141f772980f1e90d7a093d10e55929",
-  "release_notes": "v0.5.0-rc8: RC8 jobs-mode installer compatibility. The rebuilt CallKavach-Setup.exe now creates config\\engine.json during setup, enabling PostgreSQL jobs-mode startup on fresh installs. The app is BOM-tolerant when reading engine.json. Also: packaged exports fixed, dynamic issue filters, and the Celery worker is skipped in jobs mode to prevent broker log flood. Prerelease build for RC validation.",
+  "version": "0.5.0-rc9",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc9/CallKavach-bundle-0.5.0-rc9.zip",
+  "sha256": "4753c28ce7161d02f8a8af3ffd35d33cc4e2f736a0405b6e66bdea052eda89c3",
+  "release_notes": "v0.5.0-rc9: Critical cost-safe cancellation fix. Calls that have started STT/compliance processing (already billed) are now PROTECTED from cancellation and continue to save their results — only pre-STT, not-yet-billed calls are cancelled, and the batch settles COMPLETED with a separate cancelled count. Jobs-mode progress now reads the jobs rollup instead of staged_files, so a batch that is actively processing no longer shows 'Pending' forever. RC9 supersedes RC8. Prerelease build for RC validation.",
   "critical": true
 }
