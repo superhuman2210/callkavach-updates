@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-rc9",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc9/CallKavach-bundle-0.5.0-rc9.zip",
-  "sha256": "4753c28ce7161d02f8a8af3ffd35d33cc4e2f736a0405b6e66bdea052eda89c3",
-  "release_notes": "v0.5.0-rc9: Critical cost-safe cancellation fix. Calls that have started STT/compliance processing (already billed) are now PROTECTED from cancellation and continue to save their results — only pre-STT, not-yet-billed calls are cancelled, and the batch settles COMPLETED with a separate cancelled count. Jobs-mode progress now reads the jobs rollup instead of staged_files, so a batch that is actively processing no longer shows 'Pending' forever. RC9 supersedes RC8. Prerelease build for RC validation.",
+  "version": "0.5.0-rc10",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc10/CallKavach-bundle-0.5.0-rc10.zip",
+  "sha256": "fd94e270a0438d5562ebedbb5af3eefc71479f579c6f8fd99ebee5bf9db6b064",
+  "release_notes": "v0.5.0-rc10: Jobs-mode retry fix. When STT succeeds but compliance/Gemini transiently fails, the degraded call is now recoverable instead of dead. Batch 'Retry AI Analysis' requeues retryable jobs and resumes the AI/compliance stage ONLY — no STT rerun, no re-bill — repairing the existing degraded call record in place (no duplicate). Single-record retry (Needs Retry badge) requeues just the linked job the same way, and non-actionable records return clean messages instead of a raw 500. Retry buttons only appear when they can act. Includes all RC9 fixes (cost-safe cancellation + jobs-mode progress). RC10 supersedes RC9. Prerelease build for RC validation.",
   "critical": true
 }
