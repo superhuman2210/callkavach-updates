@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-rc10",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc10/CallKavach-bundle-0.5.0-rc10.zip",
-  "sha256": "fd94e270a0438d5562ebedbb5af3eefc71479f579c6f8fd99ebee5bf9db6b064",
-  "release_notes": "v0.5.0-rc10: Jobs-mode retry fix. When STT succeeds but compliance/Gemini transiently fails, the degraded call is now recoverable instead of dead. Batch 'Retry AI Analysis' requeues retryable jobs and resumes the AI/compliance stage ONLY — no STT rerun, no re-bill — repairing the existing degraded call record in place (no duplicate). Single-record retry (Needs Retry badge) requeues just the linked job the same way, and non-actionable records return clean messages instead of a raw 500. Retry buttons only appear when they can act. Includes all RC9 fixes (cost-safe cancellation + jobs-mode progress). RC10 supersedes RC9. Prerelease build for RC validation.",
+  "version": "0.5.0-rc11",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc11/CallKavach-bundle-0.5.0-rc11.zip",
+  "sha256": "1c1686dfe625d172610d743b48d7f6fb457c0adddc5265d3d01c584dbeec18f6",
+  "release_notes": "v0.5.0-rc11: Jobs-mode batch progress now shows actively processing stages (Local, STT, AI Analysis, Retry Wait, Saving) instead of leaving work under Pending, with a Processing tooltip breakdown. Processed Calls status facets are scoped correctly to the current batch/month, and Not Connected filtering now uses canonical connection status. Compliance: Railway/API agent-name results are authoritative — blank API agent names are no longer replaced using transcript regex, and customer-confirmation text cannot be converted into the spoken agent name (Phase 1 customer-versus-agent attribution protection). Updates in place; no data-model changes. Prerelease build for controlled RC validation.",
   "critical": true
 }
