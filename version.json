@@ -1,7 +1,8 @@
 {
-  "version": "0.5.0-rc12",
-  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc12/CallKavach-bundle-0.5.0-rc12.zip",
-  "sha256": "8a1e5a5cd5ff26b41dd24bc99c7b99a53676210b8b2c9ae390926565b1d43334",
-  "release_notes": "v0.5.0-rc12: Risk Level labels now follow the confirmed violation severity instead of the numeric risk score alone. A call shows Critical only when at least one confirmed Critical-severity violation exists, so High-only or Medium-only findings with a high score no longer read as Critical on the call detail page, in Processed Calls, in search and customer search, in both Excel exports, or in the cloud risk level. Calls with no violations stay Low and unflagged. Updates in place; no data-model change and no migration — RC11 records remain readable. Prerelease build for controlled RC validation.",
+  "version": "0.5.0-rc13",
+  "download_url": "https://github.com/superhuman2210/callkavach-updates/releases/download/v0.5.0-rc13/CallKavach-bundle-0.5.0-rc13.zip",
+  "sha256": "48b0cd12cd41bc809f5adbac543793330b014f595084a6d02af31a1ce533b070",
+  "size": 367880291,
+  "release_notes": "v0.5.0-rc13: Calls the engine could not assess are now shown as Needs Review and Not Assessed instead of passing silently as Low risk with a clean score. An unassessable call no longer shows a risk band, a numeric score, or a Clean result anywhere — Flagged Calls, Batch Detail, Call Detail, the dashboard Clean Calls counter and the Excel exports all read the same verdict, each with a readable review reason. Calls whose AI analysis failed stay separate as Needs Retry, because the fix there is to retry rather than to listen to the recording. Also in this build: fair scheduling between transcription and AI analysis, separate waiting vs actively-processing counters, a review queue, corrected Batch ID and language export columns, and no language reported when speech recognition never ran. Updates in place; no data-model change and no migration — RC12 records remain readable. Prerelease build for controlled RC validation.",
   "critical": false
 }
